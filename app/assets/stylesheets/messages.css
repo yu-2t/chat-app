@@ -10,13 +10,41 @@
 .side-header{
   height:100px;
   padding:0 20px;
+  display:flex; 
+  justify-content:space-between;
+  align-items:center;
+}
+
+.side-header-name a{
+  font-size:16px;
+  color:#fafafa;
+  text-decoration:none;
+}
+
+.side-header-chat a{
+  padding:14px;
+  font-size:10px;
+  color:deepskyblue;
+  border:1px solid lightblue;
+  text-decoration:none;
 }
 
 .side-main{
   background-color:#2f3e51;
   height: calc(100vh - 100px);
   padding:0 20px;
+  overflow: scroll;
 }
+
+.side-main-room{
+  padding:20px 0 40px;
+}
+
+.side-main-room a{
+  color:white;
+}
+
+
 .chat {
   background-color: #ffffff;
   width: calc(100% - 300px);
@@ -25,7 +53,27 @@
 .chat-header{
   height:100px;
   padding:0 40;
+  display:flex;
+  justify-content:space-between;
 }
+
+.header-title{
+  padding:36px 0 0 40px;
+  font-size:24px;
+  color:#333;
+}
+
+.header-button{
+padding:40px 40px;
+}
+.header-button a{
+  text-decoration:none;
+  color:darkred; 
+  border:1px solid darkred;
+  padding:20px;
+
+}
+
 
 .chat-main{
   background-color:#fafafa;
